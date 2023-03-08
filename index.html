@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Mi Primer CV</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+</head>
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Edward</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#Habilidades" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </header>
+    </div>
+
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenido-img">
+                <img src="img/Foto1CV.jpg" alt="">
+            </div>
+            <h1>EDWARD TORO</h1>
+            <h2>Técnico en Seguridad e Higiéne Laboral</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Edward Toro,</span> Profesional con experiencia y visión en la gestión de diseño, planificación y dirección orientadas a la prevención, control de riesgos y salud laboral. Implementando sistemas de control y cumplimiento de las normas.</p>
+
+            <div class="fila">
+                <h3>Datos Personales</h3>
+                <ul>
+                    <li>
+                        <strong>Cumpleaños:</strong>
+                        15-10-1988
+                    </li>
+                    <li>
+                        <strong>Dirección:</strong>
+                        Goleta Santa Cruz 6800, CABA, Argentina.
+                    </li>
+                    <li>
+                        <strong>Teléfono:</strong>
+                        1163739064
+                    </li>
+                    <li>
+                        <strong>Email:</strong>
+                        edwardtoro688@gmail.com
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Seguridad e Higiene Laboral</h4>
+                        <span class="casa">Instituto Universitario de Tecnología 'Antonio José de Sucre'</span>
+                        <span class="fecha">2015 - 2018</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Bachiller en Ciencias</h4>
+                        <span class="casa">Liceo Bolivariano 'Pablo Acosta Ortíz'</span>
+                        <span class="fecha">2002 - 2007</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item der">
+                        <h4>Especialista en Seguridad e Higiene Laboral</h4>
+                        <span class="casa">Compañia Anónima Nacional Teléfonos de Venezuela (CANTV)</span>
+                        <span class="fecha">2016 - 2018</span>
+                        <p>Gestionar el control de los puestos de trabajo, realizando evaluaciones ergonómicas. <br> Coordinar la entrega de los equipos de protección personal. <br> Organizar charlas de capacitación al personal de la brigada de emergencia. <br> Inspeccionar los sitemas de extinción de incendios.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Analísta de Seguridad e Higiene Laboral</h4>
+                        <span class="casa">Laboratorios Vargas S.A</span>
+                        <span class="fecha">2015 - 2016</span>
+                        <p>Inspeccionar los sistemas contra incendios. <br> Mantenimiento de todos los matafuegos. <br> Realizar evaluaciones ergonómicas en los puestos de trabajo.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="habilidades">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <div class="col"></div>
+                <h3>Habilidades Técnicas</h3>
+                <div class="habilidad">
+                    <span>Norma ISO 9001</span>
+                    <div class="barra-habilidad">
+                        <div class="progreso">
+                            <span>60%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="habilidad">
+                    <span>Norma ISO 14001</span>
+                    <div class="barra-habilidad">
+                        <div class="progreso">
+                            <span>60%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="habilidad">
+                    <span>Norma ISO 45001</span>
+                    <div class="barra-habilidad">
+                        <div class="progreso">
+                            <span>65%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="habilidad">
+                    <span>Sistemas contra incendios</span>
+                    <div class="barra-habilidad">
+                        <div class="progreso">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="habilidad">
+                    <span>Uso y manejo de matafuegos</span>
+                    <div class="barra-habilidad">
+                        <div class="progreso">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <seccion id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </seccion>
+
+    <script src="js/funciones.js"></script>
+
+
+</body>
+</html>
